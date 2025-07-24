@@ -1,0 +1,58 @@
+//- index.pug
+doctype html 
+html 
+    head
+        title Noor Tech Academy  
+        style 
+            include ../static/style.css 
+    body 
+        nav#navbar 
+            ul 
+                div#logo
+                    img(src="/static/img/logo1.jpg")
+                li #[a(href="/") Home]
+                li #[a(href="/") About]
+                li #[a(href="/") Class info]
+                li #[a(href="/") Service]
+                li #[a(href="/") Contact Us]
+        section#introSection 
+            //- | Welcome to Noor Tech Academy 
+            div Welcome to Noor Tech Academy 
+            div.small Work, work and work  
+        section#missionSection 
+            div Our Mission
+            div.card
+                h2 Friendly Staff
+                div.card-box
+                    div.card-img
+                        img(src="/static/img/P1.jpg")
+                    div.card-content 
+                        p Our staff is so friendly with their students.
+            div.card
+                h2 Quality Programmers
+                div.card-box
+                    div.card-img
+                        img(src="/static/img/p2.jpg")
+                    div.card-content 
+                        p Our students will get good job after completing their academic classes.
+            div.card
+                h2 Best Teaching
+                div.card-box
+                    div.card-img
+                        img(src="/static/img/p3.jpg")
+                    div.card-content 
+                        p This is the best tech academy of Pakistan.
+               
+        section#sponsersSection 
+            h2 Our Sponsors 
+            div#Sponsers
+                img(src="/static/img/sp1.png", alt="Our Sponser image", Class="sponserclass")
+                img(src="/static/img/sp2.png", alt="Our Sponser image", Class="sponserclass")
+                img(src="/static/img/sp3.svg", alt="Our Sponser image", Class="sponserclass")
+                img(src="/static/img/sp4.png", alt="Our Sponser image", Class="sponserclass")
+        footer#footer   
+            | Copyright © 2023 NoorAcademy.com | All rights reserved
+        script 
+            include ../static/index.js 
+
+

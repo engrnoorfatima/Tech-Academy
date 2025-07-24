@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap');
+
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+    margin: -7px 14px;
+    /* margin-right: 12px; */
+}
+
+#logo img {
+    height: 45px;
+    /* filter: invert(1); */
+}
+
+#navbar {
+    border: 2px solid rgb(224, 41, 41);
+    /* border-radius: 8px; */
+    background-color: rgb(224, 41, 41);
+    font-family: 'Chivo Mono', monospace;
+    /* padding: 9px;; */
+    height: 66px;
+}
+
+#navbar ul {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 15px;
+
+}
+
+#navbar li {
+    list-style: none;
+
+}
+
+#navbar li a {
+    text-decoration: none;
+    color: white;
+    padding: 23px;
+    font-weight: bold;
+}
+
+#navbar li a:hover {
+    color: black;
+    cursor: pointer;
+}
+
+#introSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: center / cover no-repeat url("/static/bg.jpg");
+    height: 400px;
+    width: 100%;
+    color: black;
+    font-family: 'Sevillana', cursive;
+    font-size: 36px;
+    padding-bottom: 25px;
+}
+
+#introSection div.small {
+    font-size: 29px;
+    padding: 4px;
+}
+
+#missionSection {
+    text-align: center;
+    font-family: 'Chivo Mono', monospace;
+    padding-top: 30px 30px;
+    margin-top: 14px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#missionSection div.card {
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 8px;
+    height: 200px;
+    width: 23%;
+    padding: 20px 23px;
+    margin: 19px 17px;
+    /* background-color: rgb(194, 106, 106); */
+}
+
+.card h2 {
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.card-box {
+    /* display: flex; */
+    align-items: center;
+    /* justify-content: space-between; */
+}
+
+.card-img {
+    height: 100px;
+    /* padding: 0px 14px; */
+    /* margin: 5px; */
+}
+
+.card-img img {
+    height: inherit;
+}
+
+.card-content {
+    margin-top: 10px;
+}
+
+.card-content p {
+    font-size: 12px;
+}
+
+#sponsersSection {
+    height: 200px;
+    background-color: rgb(207, 127, 127);
+    width: 100%;
+}
+
+#sponsersSection h2 {
+    text-align: center;
+    padding: 10px 5px;
+}
+
+#Sponsers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Sponsers img{
+    height: 100px;
+    padding: 0px 13px;
+}
+
+#footer {
+    height: 40px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(224, 41, 41); */
+    background-color: black;
+    font-size: 13px;
+    font-family: 'Chivo Mono', monospace ;
+}
